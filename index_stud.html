@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="stud.css">
+</head>
+<body>
+    <h1>Welcome to My School</h1>
+    <form action="student.php" method="POST">
+        <div class="school">
+            <label>Student Name</label><br>
+            <input type="text" name="name" placeholder="Enter Student's full name" required><br>
+            <label>Father's Name</label><br>
+            <input type="text" name="father_name" placeholder="Enter Student's father name" required><br>
+            <label>Mother's Name</label><br>
+            <input type="text" name="mother_name" placeholder="Enter Student's mother name" required><br>
+            <label>E-Mail</label><br>
+            <input type="email" name="email" placeholder="Enter father's email" required><br>
+            <label>Gender</label><br>
+            <input type="radio" name="gender" value="Male" required>Male
+            <input type="radio" name="gender" value="Female" required>Female <br>
+            <label>Age</label><br>
+            <input type="text" name="age" placeholder="enter your age" required><br>
+            <label>DOB</label><br>
+            <input type="date" name="dob" required><br>
+            <label>Address</label><br>
+            <input type="text" name="address" placeholder="Enter your residential address" maxlength="100" required><br>
+            <label>District</label><br>
+            <input type="text" name="dist" placeholder="Enter your district" required><br>
+            <label>State</label><br>
+            <input type="text" name="state" placeholder="Enter your state" required><br>
+            <label>Phone No</label>
+            <input type="text" name="ph1" placeholder="Enter your phone number" required>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
